@@ -1,4 +1,4 @@
-import { ContainerBox } from "./components/ContainerBox/ContainerBox"
+import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer"
 import { NavBar } from "./components/NavBar/NavBar"
 
 
@@ -7,7 +7,7 @@ export const App = () => {
     <>  
     <NavBar/>
     <div className="d-flex justify-content-center ">
-    <ContainerBox msj={"Bienvenidos a esta pagina en remodelacion"}/>
+    <ItemListContainer msj={"Bienvenidos a esta pagina en remodelacion"}/>
 
     </div>
     

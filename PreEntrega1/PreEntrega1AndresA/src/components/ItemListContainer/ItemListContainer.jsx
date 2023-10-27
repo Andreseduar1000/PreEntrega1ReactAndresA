@@ -1,5 +1,5 @@
 
-export const ContainerBox = ({msj}) => {
+export const ItemListContainer = ({msj}) => {
 return (
     <div>
     <div>{msj}</div>
